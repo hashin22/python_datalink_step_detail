@@ -14,7 +14,7 @@ root.withdraw()
 call_path = filedialog.askopenfile(title="전체상담내역 파일 선택", filetypes=(("Text Files", "*.xlsx"),)).name
 print(call_path)
 SHEET = print('고객입력정보 변환 파일 선택: ')
-print("고객입력정보 변환 파일 선택: ", end=' ')
+print("고객입력정보_변환 파일 선택: ", end=' ')
 stt_path = filedialog.askopenfile(title="고객입력정보 변환 파일 선택", filetypes=(("Text Files", "*.xlsx"),)).name
 print(stt_path)
 
